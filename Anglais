@@ -1,5 +1,5 @@
 import random, time
-from fiches_anglais import fiche6,fiche10
+from fiches_anglais import fiche1,fiche2
 def fiche ( dictionnaire): #return list; z = {**x,**y}
     fichelis =[]
     for anglais, francais in dictionnaire.items():
