@@ -1,0 +1,45 @@
+import random, time
+from fiches_anglais import fiche6,fiche10
+def fiche ( dictionnaire): #return list; z = {**x,**y}
+    fichelis =[]
+    for anglais, francais in dictionnaire.items():
+        fichelis.append( (anglais,francais))
+    return fichelis #(anglais,francais)
+
+def creerfiche (): #return dic
+    fiche = dict()
+    espace  = "260418"
+    valider = "280418"
+    while espace !='ok' :  
+        anglais = input("Votre mot en anglais:")
+        francais= input("La traduction en français de '" + anglais +"' est:")
+        print( "MG>>>Confirmez-vous:(_" +anglais + ":" + francais+ "_)")
+        while valider !='ok':
+            reponse = input("MG>>>validé(entrée) corriger: anglais(a),français(f),les deux(d) fini(espace):")
+            if reponse == '':
+                fiche[anglais]=francais
+                valider = 'ok'
+            if reponse == 'a':
+                while reponse != '' :
+                    anglais = input("Changer" + anglais + " en: ")
+                    print("vous validez "+ anglais+":")
+                    reponse = input(" Oui(Entrée)  Non(touche):")
+                    if reponse == '':
+                        fiche[anglais]=francais
+                        valider ='ok'
+            if reponse == 'f':
+                while reponse != '' :
+                    francais = input("Changer" + francais + " en: ")
+                    print("vous validez "+ francais +":")
+                    reponse = input(" Oui(Entrée)  Non(touche):")
+                    if reponse == '':
+                        fiche[anglais]=francais
+                        valider ='ok'
+            if reponse == 'd':
+                valider ='ok'
+            if reponse ==' ':
+                fiche[anglais]=francais
+                valider ='ok'
+                espace  ='ok'
+        valider = "Michel.Guo"
+    return fiche 
