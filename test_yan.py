@@ -1,4 +1,4 @@
-
+#fiches anglais
 
 fiche1 = {'to discuss lengthily': 'discuter longuement', 'unprecedented questions': 'sans précédent', 'where to draw the line': 'où placer la frontière', 'entangled': 'emmêlé, mêlé', 'dull': 'terne,fade', 'all 4 documents': 'les 4 documents', 'to revolve around': "s'articuler autour de", 'to depict': 'dépeindre', 'compelling': 'fascinant, irrésistible', 'a film review': 'une critique de film', 'cartoon by Mr.X': 'fait par Mr.X', 'an article written by': 'un article écrit par', 'to what extent': 'dans quelle mesure', 'a freak': 'un monstre', 'supposedly': 'soi-disant, supposément', 'a squid': 'un calamar', 'misshapen': 'difforme, déformé', 'a media outlet': 'un média', 'a researcher': 'un chercheur', 'scary': 'effrayant', 'fearsome': 'effrayant, redoutable'}
 

@@ -1,5 +1,3 @@
-# Anglais
-
 import random, time
 from fiches_anglais import fiche6,fiche10
 def fiche ( dictionnaire): #return list; z = {**x,**y}
